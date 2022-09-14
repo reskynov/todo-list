@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "/static/css/main.6144962b.css",
-    "main.js": "/static/js/main.f46f66df.js",
-    "static/media/empty-activity.png": "/static/media/empty-activity.4c1a2af2d44fb8d6237e.png",
-    "static/media/empty-todo.png": "/static/media/empty-todo.6dc38bf3169f41c9faac.png",
-    "static/media/modal-delete-icon.svg": "/static/media/modal-delete-icon.d5844c4f817fea451f7a91dc6bdbd455.svg",
-    "static/media/icon-delete.1e080ddb.svg": "/static/media/icon-delete.1e080ddb.1e080ddb2d7e894aaa5dca0dba1c2894.svg",
-    "static/media/sortAZ.svg": "/static/media/sortAZ.a5b00cb97943fa5c1edd4d4597f2c51f.svg",
-    "static/media/sortZA.svg": "/static/media/sortZA.ddb25d4be3daed7ef6781951d48810a6.svg",
-    "static/media/sortTerbaru.svg": "/static/media/sortTerbaru.11f12a88e216da8e6ac534feed5b7806.svg",
-    "static/media/sortTerlama.svg": "/static/media/sortTerlama.abb68f3353f576be473b87e950d3cd28.svg",
-    "index.html": "/index.html",
-    "static/media/modal-information-icon.svg": "/static/media/modal-information-icon.1484df0dae8bab64f5693689d27dbd04.svg",
-    "static/media/SortNotFinished.svg": "/static/media/SortNotFinished.eb235793ef2b18a7a930157470174604.svg",
-    "static/media/icon-close.72631f1e.svg": "/static/media/icon-close.72631f1e.72631f1e6505e103548bed419ba4ee74.svg",
-    "static/media/icon-back.0fe266ef.svg": "/static/media/icon-back.0fe266ef.0fe266ef77c01657693a0364041ef806.svg",
-    "static/media/sortCentang.svg": "/static/media/sortCentang.a89fa966d08a8b38511aaa24ebe5afd4.svg",
-    "static/media/icon-dropdown.e6b09153.svg": "/static/media/icon-dropdown.e6b09153.e6b091537b996fd875ffbaac4a413d37.svg",
-    "main.6144962b.css.map": "/static/css/main.6144962b.css.map",
-    "main.f46f66df.js.map": "/static/js/main.f46f66df.js.map"
+    "main.css": "/todo-list/static/css/main.6144962b.css",
+    "main.js": "/todo-list/static/js/main.3136114c.js",
+    "static/media/empty-activity.png": "/todo-list/static/media/empty-activity.4c1a2af2d44fb8d6237e.png",
+    "static/media/empty-todo.png": "/todo-list/static/media/empty-todo.6dc38bf3169f41c9faac.png",
+    "static/media/modal-delete-icon.svg": "/todo-list/static/media/modal-delete-icon.d5844c4f817fea451f7a91dc6bdbd455.svg",
+    "static/media/icon-delete.1e080ddb.svg": "/todo-list/static/media/icon-delete.1e080ddb.1e080ddb2d7e894aaa5dca0dba1c2894.svg",
+    "static/media/sortAZ.svg": "/todo-list/static/media/sortAZ.a5b00cb97943fa5c1edd4d4597f2c51f.svg",
+    "static/media/sortZA.svg": "/todo-list/static/media/sortZA.ddb25d4be3daed7ef6781951d48810a6.svg",
+    "index.html": "/todo-list/index.html",
+    "static/media/sortTerbaru.svg": "/todo-list/static/media/sortTerbaru.11f12a88e216da8e6ac534feed5b7806.svg",
+    "static/media/sortTerlama.svg": "/todo-list/static/media/sortTerlama.abb68f3353f576be473b87e950d3cd28.svg",
+    "static/media/modal-information-icon.svg": "/todo-list/static/media/modal-information-icon.1484df0dae8bab64f5693689d27dbd04.svg",
+    "static/media/SortNotFinished.svg": "/todo-list/static/media/SortNotFinished.eb235793ef2b18a7a930157470174604.svg",
+    "static/media/icon-close.72631f1e.svg": "/todo-list/static/media/icon-close.72631f1e.72631f1e6505e103548bed419ba4ee74.svg",
+    "static/media/icon-back.0fe266ef.svg": "/todo-list/static/media/icon-back.0fe266ef.0fe266ef77c01657693a0364041ef806.svg",
+    "static/media/sortCentang.svg": "/todo-list/static/media/sortCentang.a89fa966d08a8b38511aaa24ebe5afd4.svg",
+    "static/media/icon-dropdown.e6b09153.svg": "/todo-list/static/media/icon-dropdown.e6b09153.e6b091537b996fd875ffbaac4a413d37.svg",
+    "main.6144962b.css.map": "/todo-list/static/css/main.6144962b.css.map",
+    "main.3136114c.js.map": "/todo-list/static/js/main.3136114c.js.map"
   },
   "entrypoints": [
     "static/css/main.6144962b.css",
-    "static/js/main.f46f66df.js"
+    "static/js/main.3136114c.js"
   ]
 }

@@ -147,7 +147,7 @@ function ItemList() {
     <div className='container'>
         <div className='dashboard-header'>
             <div className='detail-header-left'>
-              <Link to='/todo-list/'><img className='todo-button backButton' data-cy='todo-back-button' src={backTodo} alt="back-Todo"></img></Link>
+              <Link to='/'><img className='todo-button backButton' data-cy='todo-back-button' src={backTodo} alt="back-Todo"></img></Link>
               <h1 className={editingTitle? "display-none" : ""} data-cy='todo-title'>{titleActivity}</h1>
               <input className={editingTitle ? "todo-edit-title" : "display-none"} type='text' value={titleActivity} onChange={handleInputTitle} onBlur={updateTitleActivity}></input>
               <img className='todo-button editButton' data-cy='todo-title-edit-button' src={editTodo} alt="edit-Todo" onClick={() => {

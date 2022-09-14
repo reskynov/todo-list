@@ -12,7 +12,7 @@ function App() {
     <BrowserRouter>
       <Navbar />
       <Switch>
-        <Route path="/todo-list/" exact component={Dashboard} />
+        <Route path="/" exact component={Dashboard} />
         <Route path="/detail/:id" exact component={ItemList} />
       </Switch>
     </BrowserRouter>

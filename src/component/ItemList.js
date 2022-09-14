@@ -147,8 +147,8 @@ function ItemList() {
     <div className='container'>
         <div className='dashboard-header'>
             <div className='detail-header-left'>
-              <Link to='/todo-list/'><img className='todo-button backButton' data-cy='todo-back-button' src={backTodo} alt="back-Todo"></img></Link>
-              <h1 className={editingTitle? "display-none" : ""} data-cy='todo-title'>{titleActivity}</h1>
+              <Link to='/todo-list/'><img data-cy='todo-back-button' className='todo-button backButton' src={backTodo} alt="back-Todo"></img></Link>
+              <h1 data-cy='todo-title' className={editingTitle? "display-none" : ""}>{titleActivity}</h1>
               <input className={editingTitle ? "todo-edit-title" : "display-none"} type='text' value={titleActivity} onChange={handleInputTitle} onBlur={updateTitleActivity}></input>
               <img className='todo-button editButton' data-cy='todo-title-edit-button' src={editTodo} alt="edit-Todo" onClick={() => {
                 setEditingTitle(!editingTitle)
@@ -156,13 +156,13 @@ function ItemList() {
             </div>
             <div className='detail-header-right'>
               <div>
-                <img className='todo-button sortButton' data-cy='todo-sort-button' src={sortTodo} alt="sort-Todo" onClick={() => {
+                <img data-cy='todo-sort-button' className='todo-button sortButton' src={sortTodo} alt="sort-Todo" onClick={() => {
                   setModalSortOpened(!modalSortOpened)
                 }}></img>
                 {modalSortOpened && <ModalSort setSelectedSort={setSelectedSort} selectedSort={selectedSort}
                 sortingTodo={sortingTodo} setModal={setModalSortOpened} />}
               </div>
-              <button className='add-button' data-cy='todo-add-button' onClick={() => {
+              <button data-cy='todo-add-button' className='add-button' onClick={() => {
                 setModalAddOpened(true)
               }}>
                 <span className="icon-plus">+ Tambah</span>

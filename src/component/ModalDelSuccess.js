@@ -6,8 +6,8 @@ function ModalDelSuccess( {setModal} ) {
     <div className='modal-background' onClick={() => {
       setModal(false)
     }}>
-        <div className='modal-delete-success' data-cy="modal-information">
-            <img src={delSuccess} data-cy="modal-information-icon" alt="delete-success"></img>
+        <div data-cy="modal-information" className='modal-delete-success'>
+            <img data-cy="modal-information-icon" src={delSuccess} alt="delete-success"></img>
             <h4 data-cy="modal-information-title">Activity berhasil dihapus</h4>
         </div>
     </div>

@@ -27,7 +27,7 @@ function ModalAddList({setModal, setNewTodo, addItemTodo}) {
 
   return (
     <div className='modal-background'>
-        <div className='modal-content' data-cy="modal-add">
+        <div data-cy="modal-add" className='modal-content'>
             <div className='modal-header'>
                 <h3 data-cy="modal-add-title">Tambah List Item</h3>
                 <img data-cy="modal-add-close-button" className='close-button' src={closeBtn} alt='close-button' onClick={()=>{
